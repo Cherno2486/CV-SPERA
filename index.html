@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>CV Martin Spera</title>
+</head>
+
+<body>
+<!-- Seccion Inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>MS</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)" >CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos menu -->
+                    <div id="iconos-nav" onclick="responsiveMenu ()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--iconos redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/martin-nicolas-spera-2b409b112/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/+5491122998423"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Cherno2486"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Martin Spera</span>, Desarrollo web</h2>
+                <p class="descripcion">
+
+                    Tengo amplia trayectora en el rubro de las telecomunicaciones e IT, me considero una persona con amplios deseos de siempre mirar hacia el futuro y aprender/crecer en esa direcciòn.
+                    <br><br>
+                    Me motiva el desarrollo personal y la valoracion de los conocimientos adquiridos mas alla de la relacion empleador/empleado.
+                    <br><br>
+                    En cuanto a lo personal me considero una persona divertida, empatica y siempre abierta a la charla y critica constructiva, me adapto facilmente a trabajar en equipo, no soy conflictivo y siempre estoy dispuesto a aprender cosas nuevas.</p>
+                <a href="#portfolio">Ir a portfolio</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Seccion Sobre Mi -->
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="img/foto.jpg" alt="foto cv">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy  <span>Martin Spera</span></h2>
+        <h3>Desarrollo Web</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptas obcaecati molestiae nulla aperiam iusto harum ducimus. Velit fuga veritatis soluta, dolorum, officia, commodi quo facere eos exercitationem doloremque eaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita facilis, vero sapiente debitis in reiciendis dolorum doloremque soluta obcaecati praesentium saepe totam delectus ipsum itaque autem sunt fuga vitae!</p>
+        <a href="CV Spera Martin.pdf" download="CV-SPERA-MARTIN">Descargar CV</a>
+    </div>
+</section>
+
+<!-- Seccion Servicios -->
+<section id="servicios">
+    <h3 class="titulo-seccion">Mis Servicios</h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Programación</li>
+                <li>Junior</li>
+            </ul>
+            <p>Armado y estructurado de paginas web, estilos, funcionalidad y adaptación a la necesidad de los clientes.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Reparación y armado de PC</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>IT</li>
+                <li>Tecnologia</li>
+                <li>Semi SR.</li>
+            </ul>
+            <p>Ya sea para uso personal o profesional, limpieza o revisión de piezas.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Consultorias de Networking</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>NOC</li>
+                <li>Troubleshooting</li>
+                <li>Senior</li>
+            </ul>
+            <p>Diagnostico y armado de redes, soluciones o mejoras tanto a nivel IP como en soluciones de tecnologias de UM.</p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Revisión de bases de datos</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>SQL</li>
+                <li>Database</li>
+                <li>Junior</li>
+            </ul>
+            <p>Revisión y diagnostico de bases de datos, armado de las mismas segun necesidad del proyecto.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Python - PHP</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Backend</li>
+                <li>Database</li>
+                <li>Junior</li>
+            </ul>
+            <p>Trabajos de Backend, funcionalidad con servidores y API externos</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>GIT - Github</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Programación</li>
+                <li>Seguimiento</li>
+                <li>Junior</li>
+            </ul>
+            <p>Seguimiento y control de proyectos, aplicacion de branches</p>
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Skills -->
+<div class="contenedor-skills" id="skills">
+    <h3>Habilidades</h3>
+    <div class="skill">
+        <p> <span class="lista"> </span>NETWORKING</p>
+        <span class="porcentaje">90%</span>
+
+        <div class="barra">
+            <div class="barra-progreso1" id="html"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <p> <span class="lista"> </span>JAVASCRIPT</p>
+        <span class="porcentaje">75%</span>
+
+        <div class="barra">
+            <div class="barra-progreso2" id="js"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p> <span class="lista"> </span>Base de Datos</p>
+        <span class="porcentaje">80%</span>
+
+        <div class="barra">
+            <div class="barra-progreso3" id="SQL"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p> <span class="lista"> </span>HTML & CSS</p>
+        <span class="porcentaje">75%</span>
+    
+        <div class="barra">
+            <div class="barra-progreso4" id="py"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Seccion Portfolio -->
+<section id="portfolio">
+    <h3 class="titulo-seccion">Proyectos Anteriores</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto1.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto2.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto3.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto4.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto5.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto6.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto7.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto8.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay">
+            </div>
+            <img src="img/proyecto9.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Seccion Contacto -->
+<section id="contacto">
+    <h3 class="titulo-seccion">Contactame</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                <input type="text" placeholder="Motivo de contacto" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Mail" class="input-full">
+            </div>
+
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu Mensaje" class="input-full"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+        </form>
+    </div>
+</section>
+
+<!-- Seccion footer -->
+<footer>
+    <p>Todos los derechos reservados - 2023</p>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/martin-nicolas-spera-2b409b112/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/+5491122998423"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://github.com/Cherno2486"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
